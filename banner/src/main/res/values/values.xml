@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dzmPagerIndicatorStyle" format="reference" />
+    <declare-styleable name="dzmPagerIndicator">
+        <attr name="android:drawable" />
+        <attr name="android:spacing" />
+        <attr name="fromAlpha" format="float" />
+        <attr name="toAlpha" format="float" />
+        <attr name="fromScaleX" format="float" />
+        <attr name="fromScaleY" format="float" />
+        <attr name="toScaleX" format="float" />
+        <attr name="toScaleY" format="float" />
+        <attr name="transition">
+            <enum name="fade" value="0" />
+            <enum name="scale" value="1" />
+            <enum name="slide" value="2" />
+        </attr>
+    </declare-styleable>
+    <item name="dzm_item_tag" type="id"/>
+</resources>

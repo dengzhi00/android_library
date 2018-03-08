@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dzm.banner.view.PagerIndicator xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dzm_pagerindecator"
+    android:layout_width="wrap_content"
+    android:layout_height="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:drawable="@drawable/round"
+    android:padding="10dp"
+    android:spacing="10dp"
+    app:fromAlpha="0.3"
+    app:paddingEnd="5dp"
+    app:paddingStart="5dp"
+    app:toAlpha="1" />
